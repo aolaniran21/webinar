@@ -164,11 +164,11 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 100px;
   }
 }
 
@@ -468,19 +468,23 @@ h6 {
   }
 }
 #hero h1 {
-  color: #fff;
+  color: #6dab32;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 600;
   text-transform: uppercase;
 }
 #hero h1 span {
-  color: #f82249;
+  color: #ff7402;
+  font-size: 56px;
 }
 @media (max-width: 991px) {
   #hero h1 {
     font-size: 34px;
   }
+}
+#hero div .ul {
+  text-align: left;
 }
 #hero p {
   color: #ebebeb;
@@ -561,7 +565,7 @@ h6 {
 #hero .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -572,10 +576,10 @@ h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #ff7402;
 }
 #hero .about-btn:hover {
-  background: #f82249;
+  background: #ff7402;
   color: #fff;
 }
 
