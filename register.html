@@ -14,7 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;900&display=swap"
     rel="stylesheet" />
-<!--   <link rel="stylesheet" href="assets/css/style.css" /> -->
+
+  <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+
   <title>Kreateng Webinar</title>
 
   <style>
@@ -25,18 +27,24 @@
       /* background-size: contain; */
       /* background-repeat: no-repeat; */
     }
+
+    @media (max-width: 991px) {
+      #register iframe {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
 <body>
-  <section class="section2">
-    <div id="register" class="text-center">
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSePQLFkwy7ggy1vvIY5g13KTClA1W3wBW3Xz_cD80osm4fdCQ/viewform?embedded=true"
-        width="640" height="1877" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-    </div>
-  </section>
+  <!-- <section class="section2"> -->
+  <div id="register" class="text-center">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSePQLFkwy7ggy1vvIY5g13KTClA1W3wBW3Xz_cD80osm4fdCQ/viewform?embedded=true"
+      width="640" height="1877" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  </div>
+  <!-- </section> -->
 </body>
 
 </html>
